@@ -45,7 +45,7 @@ if not st.session_state['giris_yapildi']:
 # Giriş Başarılıysa
 else:
     st.balloons()
-    st.title("❤️ Seni Çok Seviyorum N! ❤️")
+    st.title("❤️ Seni Çok Seviyorum Sevgiim ❤️")
 
     # Sadece senin fotoğrafın (GIF satırını sildim)
     # oyku.jpg dosyasının bu kodla AYNI KLASÖRDE olduğundan emin ol!
@@ -53,7 +53,7 @@ else:
 
     st.markdown("""
     <div class="text-msg">
-    Hayatımın anlamı, nice mutlu yıllarımıza...<br>
+    Dünyanın en güzel kızı...<br>
     Varlığın bana en büyük hediye.<br>
     🌸 💑 🌸
     </div>
@@ -63,3 +63,4 @@ else:
         st.toast('Seni çoook seviyorum!', icon='💖')
 
         st.balloons()
+
