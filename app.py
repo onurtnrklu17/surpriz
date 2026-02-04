@@ -49,7 +49,7 @@ else:
 
     # Sadece senin fotoğrafın (GIF satırını sildim)
     # oyku.jpg dosyasının bu kodla AYNI KLASÖRDE olduğundan emin ol!
-    st.image("oyku.jpg", caption="Benim dünyalar güzelim... ❤️", use_container_width=True)
+    st.image("oyku.jpeg", caption="Benim dünyalar güzelim... ❤️", use_container_width=True)
 
     st.markdown("""
     <div class="text-msg">
@@ -61,4 +61,5 @@ else:
 
     if st.button("Tekrar Seni Seviyorum De 😍"):
         st.toast('Seni çoook seviyorum!', icon='💖')
+
         st.balloons()
