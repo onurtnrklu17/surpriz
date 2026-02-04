@@ -73,7 +73,7 @@ if not st.session_state['giris_yapildi']:
         st.write("Şifre: **Yıldönümümüz** (gün ay yıl bitişik) 💙")
 
     if st.button("Giriş Yap", type="primary"): # Butonu da mavi yaptık
-        if sifre == "04052025":  # ŞİFREN
+        if sifre == "04042025":  # ŞİFREN
             st.session_state['giris_yapildi'] = True
             st.rerun()
         else:
@@ -107,3 +107,4 @@ else:
         st.toast('Seni çoook seviyorum!', icon='💙')
         time.sleep(0.5)
         st.balloons()
+
